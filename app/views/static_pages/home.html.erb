@@ -7,4 +7,5 @@
   <h4><%= beer.description %></h4>
   <p>ABV: <%= beer.abv %></p>
   <p>IBU: <%= beer.ibu %></p>
+  <p><%= image_tag beer.image.variant(resize: "100x50") %></p>
 <% end %>

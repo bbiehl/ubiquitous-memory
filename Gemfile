@@ -15,6 +15,8 @@ gem 'bootsnap', '>= 1.1.0', require: false
 # for activeadmin
 gem 'activeadmin'
 gem 'devise'
+# mini_magic to transform images
+gem 'mini_magick'
 
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
